@@ -3,10 +3,10 @@ package com.serachingAlgo;
 public class FindSecondLargestNo {
 
 	public static void main(String[] args) {
-		Integer intArray[] = { 19, 89, 14, 97, 8, 94};
+		Integer intArray[] ={5,4,3,2,1};
 
-		int largest = intArray[0];
-		int secLargest = intArray[0];
+		int largest =Integer.MIN_VALUE;
+		int secLargest = Integer.MIN_VALUE;
 		for (int i = 0; i < intArray.length; i++) {
 
 			if (intArray[i] > largest) {
